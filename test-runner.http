@@ -1,0 +1,18 @@
+### root directory call
+http://localhost:3000
+
+###
+POST http://localhost:3000/api/orders HTTP/1.1
+content-type: applications/json
+
+{
+    "orderId": 10,
+    "rawCost": 2,
+    "productId": 2,
+    "quantity": 2
+}
+
+### GET all orders
+
+GET http://localhost:3000/api/orders HTTP/1.1
+content-type: applications/json 
